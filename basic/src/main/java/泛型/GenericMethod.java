@@ -8,7 +8,6 @@ package 泛型;
  **/
 class GenericMethod {
      <T> String getSomething(Class<T> t){
-         System.out.println(t.toString());
          return t.toString();
      };
 
