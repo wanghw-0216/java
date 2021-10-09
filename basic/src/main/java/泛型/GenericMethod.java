@@ -7,9 +7,11 @@ package 泛型;
  * @Version 1.0
  **/
 class GenericMethod {
-     <T> String getSomething(Class<T> t){
+     public <T> String getSomething(Class<T> t){
          return t.toString();
      };
+
+
 
 
     public static void main(String[] args) {
