@@ -1,5 +1,7 @@
 package collectionstudy;
 
+import java.util.HashSet;
+import java.util.Set;
 import java.util.TreeMap;
 
 /**
@@ -58,7 +60,7 @@ public class Person implements Comparable<Person>{
 
 class test{
     public static void main(String[] args) {
-        TreeMap<Person  , String> map = new TreeMap<>();
+/*        TreeMap<Person  , String> map = new TreeMap<>();
         map.put(new Person("张三" , 1) , "zhanngsan");
         map.put(new Person("张四" , 2) , "zhanngsi");
         map.put(new Person("张五" , 4) , "zhanngwu");
@@ -67,6 +69,28 @@ class test{
 
         for (Person person : map.keySet()) {
             System.out.println(person.toString());
+        }*/
+
+        /**
+         * world
+         * sunshine
+         * kfc
+         * hello
+         * sun
+         * abcd
+         */
+
+        Set<String> set = new HashSet();
+        set.add("hello");
+        set.add("world");
+        set.add("sun");
+        set.add("sunshine");
+        set.add("abcd");
+        set.add("kfc");
+        set.add("last");
+
+        for (String o : set) {
+            System.out.println(o);
         }
 
     }
