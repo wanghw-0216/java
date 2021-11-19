@@ -14,6 +14,7 @@ public class ArrayListTest {
         Integer[] str = new Integer[]{0,1};
         Object[] objects = list.toArray(str);
         System.out.println(objects.length);
+
         for (Object object : objects) {
             System.out.println(object);
         }
